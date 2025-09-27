@@ -5,5 +5,5 @@
 ```bash
 uv sync
 source .venv/bin/activate
-python -m main
+uvicorn main:app # или python -m main
 ```
